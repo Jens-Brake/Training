@@ -16,7 +16,12 @@ p{
 	font-size: 2vw;
 	line-height: 0%;
 }
-
+.switch{
+		display: flex;
+		margin-left: auto;
+		margin-right: 0;
+		background-color: antiquewhite;
+}
 
 /* First Flexbox try */
 .spieleBilder{
