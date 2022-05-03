@@ -2,14 +2,44 @@
 html{
     background-color: black;
 }
-h1,p{
+
+
+h1{
     color: white ;
-    font-size: 2vw;
+    font-size: 4vw;
+	background-color: rgb(43, 16, 16);
+	background: linear-gradient(70deg, black, rgb(58, 16, 16));
 }
+
+p{
+	color: white;
+	font-size: 2vw;
+	line-height: 0%;
+}
+
+
+/* First Flexbox try */
+.spieleBilder{
+	/* Die Zeile hier drunter wirkt irgendwie nicht, soll eigentlich umrandung sein */
+	border: 3px white; 
+	
+
+	display: flex;
+	flex direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	
+	
+}
+
+.games{
+
+	color:white;
+	font-size: 1vw;
+	background-color: brown;
+}
+
 .games:hover{
-	background-color: blanchedalmond;
+	background-color: green;
 }
-footer{
-    position:relative;
-    bottom:0;
-}	
