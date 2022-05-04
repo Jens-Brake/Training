@@ -11,6 +11,11 @@ h1{
 	background: linear-gradient(70deg, black, rgb(58, 16, 16));
 }
 
+img{
+	width: 450px;
+	height: 300px;
+	object-fit: none;
+}
 p{
 	color: white;
 	font-size: 2vw;
@@ -25,18 +30,28 @@ p{
 
 /* First Flexbox try */
 .spieleBilder{
-	/* Die Zeile hier drunter wirkt irgendwie nicht, soll eigentlich umrandung sein */
-	border: 3px white; 
-	
+	border: 3px solid white; 
+	/* width: radius color style; */
+	width: 90%;
+	margin-left: 5%;
 
 	display: flex;
-	flex direction: row;
+	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-start;
 	flex-wrap: wrap;
 	
 	
 }
+.spieleBilder::after{
+	width: 10%;
+	height: 10%;
+	position: relative;
+	background-color: blue;
+	display: block;
+	content: "";
+}
+
 
 .games{
 
