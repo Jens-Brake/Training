@@ -1,0 +1,115 @@
+.button:hover{
+	background-color: greenyellow;
+}
+
+html{
+	background-color: black;
+}
+.textboxes{
+	color: white;
+}
+label{
+	color: white;
+}
+
+
+
+/* flexbox für alles "all" */
+.all{
+	flex-direction: column;
+	flex-wrap: wrap;
+	/* kann zusammengefasst werden durch "flex-flow: column wrap;" */
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+	flex: none;
+
+	border: 3px solid white; 
+	width: 90%;
+	margin-left: 5%;
+	background-color: peru;
+}
+
+/* flexbox für alles bisauf submit  "allsub"      (textboxes, tick 1 und 2) */
+.allsub{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	/* kann zusammengefasst werden durch "flex-flow: column wrap;" */
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+	flex: none;
+
+	border: 3px solid white; 
+	width: 90%;
+	margin-left: 5%;
+	background-color: blue;
+
+
+}
+
+/* Flexbox 1 "textboxes" */
+.textboxes{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	/* kann zusammengefasst werden durch "flex-flow: column wrap;" */
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+	flex: none;
+
+	border: 3px solid white; 
+	width: 50%;
+	background-color: brown;
+}
+
+/* flexbox tickon alle also 1 und 2   "tick" 			(tick 1.1+1.2 +2.1+2.2)*/
+.tick{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	/* kann zusammengefasst werden durch "flex-flow: column wrap;" */
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+
+	border: 3px solid white; 
+	width: 100%;
+	background-color: yellow;
+
+}
+/* flexbox tickon 1  "tick1" 			(tick 1.1 und 1.2)*/
+.tick1{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	/* kann zusammengefasst werden durch "flex-flow: column wrap;" */
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+	flex: none;
+
+	border: 3px solid white; 
+	width: 90%;
+	margin-left: 5%;
+	background-color: lime;
+}
+
+/* flexbox tickon 2  "tick2" 			(tick 2.1 und 2.2*/
+.tick2{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	/* kann zusammengefasst werden durch "flex-flow: column wrap;" */
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+	flex: none;
+
+	border: 3px solid white; 
+	width: 90%;
+	margin-left: 5%;
+	background-color: slateblue;
+}
